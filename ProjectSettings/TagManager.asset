@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Floor
+  - Shuriken
+  - PlayerSlash
+  - EnemySlash
+  - Enemy
+  - Explosion
   layers:
   - Default
   - TransparentFX
@@ -13,11 +19,11 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Ground
+  - Weapon
+  - EnemyWeapon
+  - Enemy
+  - Player
   - 
   - 
   - 
@@ -40,4 +46,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Bg
+    uniqueID: 709961059
+    locked: 0
+  - name: Floor
+    uniqueID: 1356236805
+    locked: 0
+  - name: Player
+    uniqueID: 2908232885
     locked: 0
